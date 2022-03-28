@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["DM Sans", "Arial", "sans-serif"],
+        sourcesanspro: ["Source Sans Pro"],
       },
     },
   },

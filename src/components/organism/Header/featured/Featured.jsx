@@ -9,7 +9,9 @@ const Featured = ({ sold, tagline, desc }) => {
       <h1 className="md:text-3xl text-xl">{tagline}</h1>
       <p className="text-white/80 mt-10">{desc}</p>
       <div className="my-8 flex items-center md:justify-start justify-center gap-5">
-        <Button title={`Beli Sekarang`} addClassname={"bg-seccondary"} />
+        <Button addClassname={"bg-seccondary"}>
+          <p>Beli Sekarang</p>
+        </Button>
         <div>
           <BiDownload className="text-xl mx-auto" />
           <p>{sold}</p>

@@ -1,11 +1,11 @@
 import React from "react";
 
-const Button = ({ title, addClassname }) => {
+const Button = ({ children, addClassname }) => {
   return (
     <button
-      className={`py-2 px-5 rounded-3xl font-medium text-lg ${addClassname}`}
+      className={`py-3 px-7 rounded-3xl font-medium text-lg ${addClassname}`}
     >
-      {title}
+      {children}
     </button>
   );
 };
