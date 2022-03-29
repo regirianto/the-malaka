@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   return (
-    <div className="mx-auto py-5 bg-primary/95 w-full text-white flex justify-between px-11 font-sans items-center">
+    <div className="mx-auto py-5 bg-primary/95 w-full text-white flex  justify-between px-11 font-sans items-center">
       <NavBrand />
       <NavLink />
       <ButtonDowload />

@@ -3,7 +3,7 @@ import SubTitleSection from "../../../molecule/SubTitleSection";
 
 const Author = ({ name, account }) => {
   return (
-    <div className="w-4/12  md:px-2">
+    <div className="md:w-4/12 w-6/12 p-4">
       <SubTitleSection color={"white"} tiltle="Buku ini untuk siapa" />
       <p className="md:text-3xl text-xl font-bold md:mt-5 my-3">
         Kata Pengantar Dari Penulis Buku

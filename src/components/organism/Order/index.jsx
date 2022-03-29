@@ -17,7 +17,7 @@ const Order = () => {
           Otak Kita butuh asupan nutrisi juga, tidak hanya perut saja.
         </p>
       </div>
-      <div className="flex justify-center items-center gap-6 ">
+      <div className="flex md:flex-row flex-col justify-center items-center gap-6">
         <div className=" flex items-center gap-3">
           <BiDownload className="text-2xl text-black/70" />
           <p className="text-xl font-medium">

@@ -13,7 +13,8 @@ const Swipper = ({ children }) => {
       className="lg:w-[1024px] md:w-[768px] w-[320px] drop-shadow-xl rounded-3xl flex-1"
       slidesPerView={1.1}
       freeMode={true}
-      rewind={true}
+      grabCursor
+      centeredSlides={true}
       navigation
       pagination={{ clickable: true }}
       breakpoints={{
